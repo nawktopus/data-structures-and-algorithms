@@ -57,7 +57,7 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 //  expect(forLoopTwoToThe([0, 4, 5]).length).toStrictEqual(3);
 const forLoopTwoToThe = (arr) => {
   const newForLoopTwoToThe = [];
-  for (let i in arr) /*(let i=0; i <arr.length; i++;)*/ {
+  for (let i in arr) /*(let i=0; i <arr.length; i++)*/ {
     let a = Math.pow(2, arr[i]);
     newForLoopTwoToThe.push(a);
   }
