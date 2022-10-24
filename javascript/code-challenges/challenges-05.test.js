@@ -151,8 +151,17 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 //   expect(reversedString('Code 301')).toStrictEqual('103 edoC');
 // });
 
+// const reversedString = (str) => {
+//   return [...str].reduce((p,c)=> c + p);
+// };
+
 const reversedString = (str) => {
-  return [...str].reduce((p,c)=> c + p);
+  let splitStrArr = str.split('');
+
+  let reversedStr = splitStrArr.reduce((a, cL)=>{
+    return cL + a;
+  }, '');
+  return reversedStr;
 };
 
 /* ------------------------------------------------------------------------------------------------
