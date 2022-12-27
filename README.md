@@ -5,6 +5,8 @@ Table of Contents
 
 [Array-Insert-Shift](python/docs/array-insert-shift/README.md)
 
+[Array-Binary-Search](python/docs/array-binary-search/README.md)
+
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
 
 ## Repository Quick Tour and Usage
